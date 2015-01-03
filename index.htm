@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Diaspora Reshare Visualization</title>
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<script type="text/javascript" src="js/JSTreeGraph.js"></script>          
+	<script type="text/javascript" src="js/worker.js"></script>
+	
+	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/JSTreeGraph.css" media="screen" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<p>Beitrags-Url eingeben (z.B. https://pod.geraspora.de/posts/964757)<br />
+<input type="text" id="url" />
+<input type="button" id="start" value="Start!" onclick="startCrawl()"/></p>
+
+
+<div id="status"></div>
+
+<div id="woods"></div>
+ 
+<script type="text/javascript" src="js/urlpara.js"></script>
+</body>
+</html>
